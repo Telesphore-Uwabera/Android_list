@@ -1,5 +1,7 @@
+Here’s a sample `README.md` file for your Flutter project:
+
 ```markdown
-# My Android_list App
+# My Flutter App
 
 ## Description
 
