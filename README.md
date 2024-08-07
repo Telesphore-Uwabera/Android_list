@@ -63,10 +63,3 @@ This is a Flutter application that demonstrates basic navigation and API integra
 5. **Development Environment**:
    - The app is developed with Flutter SDK and assumes that the development environment is set up with necessary tools for building and running Flutter applications.
 
-Feel free to modify the `README.md` file based on specific details about your project or additional features you may have implemented.
-
-
-### Notes:
-- Replace `https://github.com/yourusername/your-repository-name.git` with the actual URL of your repository.
-- Modify or expand the sections based on additional details or specific design choices you made.
-- Ensure the content matches the specifics of your project and setup.
