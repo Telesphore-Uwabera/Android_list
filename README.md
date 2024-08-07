@@ -65,7 +65,6 @@ This is a Flutter application that demonstrates basic navigation and API integra
 
 Feel free to modify the `README.md` file based on specific details about your project or additional features you may have implemented.
 
-```
 
 ### Notes:
 - Replace `https://github.com/yourusername/your-repository-name.git` with the actual URL of your repository.
