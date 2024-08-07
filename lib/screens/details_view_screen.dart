@@ -8,7 +8,15 @@ class DetailsViewScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text(item['name'] ?? 'Details')),
+      appBar: AppBar(title: Text(item['name'] ?? 'Details'),
+      actions: <Widget>[
+          IconButton(
+            icon: Icon(Icons.home),
+            onPressed: () {
+              Navigator.pushReplacementNamed(context, '/');
+            },
+          ),
+        ],),
       body: Center(
         child: Card(
           elevation: 8.0,
