@@ -1,6 +1,3 @@
-Here’s a sample `README.md` file for your Flutter project:
-
-```markdown
 # My Flutter App
 
 ## Description
@@ -12,13 +9,13 @@ This is a Flutter application that demonstrates basic navigation and API integra
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/yourusername/your-repository-name.git
+   git clone https://github.com/Telesphore-Uwabera/Android_list.git
    ```
 
 2. **Navigate to the Project Directory**
 
    ```bash
-   cd your-repository-name
+   cd Android_list
    ```
 
 3. **Install Dependencies**
