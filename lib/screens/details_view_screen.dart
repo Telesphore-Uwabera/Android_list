@@ -1,24 +1,14 @@
 import 'package:flutter/material.dart';
 
 class DetailsViewScreen extends StatelessWidget {
-  final Map<String, dynamic> item;
+  final dynamic item;
 
   DetailsViewScreen({required this.item});
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text(item['name'] ?? 'Details'),
-        actions: <Widget>[
-          IconButton(
-            icon: Icon(Icons.home),
-            onPressed: () {
-              Navigator.pushReplacementNamed(context, '/');
-            },
-          ),
-        ],
-      ),
+      appBar: AppBar(title: Text(item['name'] ?? 'Details')),
       body: Center(
         child: Card(
           elevation: 8.0,
@@ -27,24 +17,13 @@ class DetailsViewScreen extends StatelessWidget {
             padding: const EdgeInsets.all(16.0),
             child: Column(
               mainAxisSize: MainAxisSize.min,
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: <Widget>[
-                Text(
-                  item['name'] ?? 'No Name',
-                  style: Theme.of(context).textTheme.headlineMedium,
-                ),
-                SizedBox(height: 8.0),
-                Text(
-                  item['data'] ?? 'No Data',
-                  style: Theme.of(context).textTheme.bodyMedium,
-                ),
-                SizedBox(height: 16.0),
-                ElevatedButton(
-                  onPressed: () {
-                    Navigator.pop(context);
-                  },
-                  child: Text('Back'),
-                ),
+              crossAxisAlignment: CrossAxisAlignment.center,
+              children: [
+                Text('ID: ${item['id'] ?? 'No ID'}', style: TextStyle(fontSize: 20)),
+                SizedBox(height: 8),
+                Text('Name: ${item['name'] ?? 'No Name'}', style: TextStyle(fontSize: 20)),
+                SizedBox(height: 8),
+                Text('Data: ${item['data'] ?? 'No Data'}', style: TextStyle(fontSize: 16)),
               ],
             ),
           ),
