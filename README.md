@@ -1,8 +1,8 @@
-# My Flutter App
+# My Android_list App
 
 ## Description
 
-This is a Flutter application that demonstrates basic navigation and API integration. The app features a list view screen displaying data fetched from an API, and a details view screen that shows detailed information about selected items.
+This is an Android_list application that demonstrates basic navigation and API integration. The app features a list view screen displaying data fetched from an API and a detailed view screen showing detailed information about selected items.
 
 ## Instructions to Run the App
 
@@ -38,10 +38,10 @@ This is a Flutter application that demonstrates basic navigation and API integra
 
 ## Additional Libraries and Tools Used
 
-- **Flutter**: Framework for building natively compiled applications for mobile, web, and desktop from a single codebase.
-- **http**: For making HTTP requests to the API.
+- **Flutter**: Framework for building natively compiled mobile, web, and desktop applications from a single codebase.
+- **http**: This is for making HTTP requests to the API.
 - **mockito**: For creating mock objects in unit tests.
-- **flutter_test**: For writing and running unit tests and widget tests.
+- **flutter_test**: This is for writing and running unit and widget tests.
 
 ## Assumptions and Design Decisions
 
@@ -58,8 +58,8 @@ This is a Flutter application that demonstrates basic navigation and API integra
    - The `DetailsViewScreen` uses a `Card` widget to display details in the center of the screen.
 
 4. **Error Handling**:
-   - Basic error handling is implemented to show an error message if the API request fails or if no data is available.
+   - Basic error handling is implemented to show an error message if the API request fails or no data is available.
 
 5. **Development Environment**:
-   - The app is developed with Flutter SDK and assumes that the development environment is set up with necessary tools for building and running Flutter applications.
+   - The app is developed with Flutter SDK and assumes that the development environment is set up with the necessary tools for building and running Flutter applications.
 
